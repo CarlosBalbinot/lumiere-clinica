@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Laço do Outubro Rosa: duas faixas que se cruzam -->
+  <g stroke="#E8A9B4" stroke-width="11">
+    <path d="M24 128 L50 74 C64 52 68 18 50 16" />
+    <path d="M50 16 C32 18 36 52 50 74 L76 128" />
+  </g>
+  <!-- brilho suave, efeito aquarela -->
+  <g stroke="#FFF8F7" stroke-width="2" opacity=".55">
+    <path d="M58 54 C63 40 63 26 54 22" />
+    <path d="M61 96 L72 118" />
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none" stroke="#C98B97" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ramo com folhas e flor em traço fino (decorativo, cantos do cartão) -->
+  <path d="M6 154 C40 120 70 92 120 60" />
+  <path d="M36 126 C30 108 36 96 50 90 C52 106 46 118 36 126 Z" />
+  <path d="M42 118 L47 98" />
+  <path d="M58 104 C70 112 84 112 94 104 C82 94 68 94 58 104 Z" />
+  <path d="M62 104 L88 104" />
+  <path d="M72 88 C68 70 76 58 90 54 C92 70 86 82 72 88 Z" />
+  <path d="M76 84 L86 60" />
+  <path d="M96 76 C108 82 120 80 128 72 C118 64 106 66 96 76 Z" />
+  <!-- flor -->
+  <g transform="translate(130 46)">
+    <circle r="3" />
+    <path d="M0 -3 C-5 -12 5 -12 0 -3" />
+    <path d="M3 -1 C12 -5 13 5 3 1" />
+    <path d="M2 3 C7 11 -3 13 -1 3" />
+    <path d="M-2 3 C-9 9 -13 0 -3 1" />
+    <path d="M-3 -1 C-11 -6 -6 -12 -1 -3" />
+  </g>
+  <!-- botões -->
+  <circle cx="22" cy="132" r="2" />
+  <circle cx="108" cy="92" r="1.6" />
+</svg>

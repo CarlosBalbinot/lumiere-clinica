@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ELASCE · Outubro Rosa</title>
+  <meta name="description" content="Um encontro para cuidar, conectar e florescer. 17/10, 8h, Casa Martim.">
+  <meta name="theme-color" content="#FBEDEC">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="ELASCE · Outubro Rosa">
+  <meta property="og:description" content="Um encontro para cuidar, conectar e florescer. 17/10, 8h, Casa Martim.">
+  <!-- Troque pelo endereço absoluto do GitHub Pages quando publicar,
+       ex.: https://usuario.github.io/repositorio/assets/og-image.png -->
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Convite ELASCE · Outubro Rosa — 17/10, 8h, Casa Martim. Realização Lumière Clinic.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/og-image.png">
+  <meta name="twitter:title" content="ELASCE · Outubro Rosa">
+  <meta name="twitter:description" content="Um encontro para cuidar, conectar e florescer. 17/10, 8h, Casa Martim.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital@0;1&family=Italiana&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Sprite de ícones em traço fino -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-calendario" viewBox="0 0 24 24">
+      <rect x="4" y="5.5" width="16" height="14" rx="2.5" />
+      <path d="M4 10h16M8.5 3.5v4M15.5 3.5v4" />
+      <circle cx="12" cy="14.5" r=".6" />
+    </symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8" />
+      <path d="M12 7.5V12l3 2" />
+    </symbol>
+    <symbol id="i-local" viewBox="0 0 24 24">
+      <path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z" />
+      <circle cx="12" cy="10" r="2.3" />
+    </symbol>
+    <symbol id="i-coracao" viewBox="0 0 24 24">
+      <path d="M12 19.5s-7-4.4-7-9.8A3.9 3.9 0 0 1 12 7.4a3.9 3.9 0 0 1 7 2.3c0 5.4-7 9.8-7 9.8z" />
+    </symbol>
+    <symbol id="i-lotus" viewBox="0 0 24 24">
+      <path d="M12 18.5c-2.6-2.6-2.6-7.2 0-10.5 2.6 3.3 2.6 7.9 0 10.5z" />
+      <path d="M12 18.5c-3.8-.6-6.6-3-7.5-6.8 3.2-.2 6 1.8 7.5 6.8z" />
+      <path d="M12 18.5c3.8-.6 6.6-3 7.5-6.8-3.2-.2-6 1.8-7.5 6.8z" />
+      <path d="M6 20.5h12" />
+    </symbol>
+    <symbol id="i-pessoas" viewBox="0 0 24 24">
+      <circle cx="9" cy="8.5" r="2.6" />
+      <path d="M4 18.5c0-3 2.2-5.2 5-5.2s5 2.2 5 5.2" />
+      <circle cx="16.2" cy="9.3" r="2.1" />
+      <path d="M15.4 13.4c2.6 0 4.6 2 4.6 4.8" />
+    </symbol>
+    <symbol id="i-broto" viewBox="0 0 24 24">
+      <path d="M12 20.5v-9" />
+      <path d="M12 13.5c0-3.6-2.8-5.8-6.5-5.8 0 3.6 2.8 5.8 6.5 5.8z" />
+      <path d="M12 11.5c0-3.4 2.6-5.8 6.5-5.8 0 3.6-2.6 5.8-6.5 5.8z" />
+    </symbol>
+    <symbol id="i-laco" viewBox="0 0 24 24">
+      <path d="M7 21l5-8.6c2.2-3.6 2.6-8.4 0-8.9" />
+      <path d="M12 3.5c-2.6.5-2.2 5.3 0 8.9L17 21" />
+    </symbol>
+    <symbol id="i-copiar" viewBox="0 0 24 24">
+      <rect x="8.5" y="8.5" width="11" height="11" rx="2.5" />
+      <path d="M15.5 8.5V6.5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2" />
+    </symbol>
+    <symbol id="i-mensagem" viewBox="0 0 24 24">
+      <path d="M12 4.5c4.4 0 8 3 8 6.8s-3.6 6.8-8 6.8c-1 0-2-.1-2.9-.4L5 19.5l1.2-3.3C4.8 15 4 13.2 4 11.3 4 7.5 7.6 4.5 12 4.5z" />
+      <path d="M9 11.5h.01M12 11.5h.01M15 11.5h.01" />
+    </symbol>
+  </svg>
+
+  <main class="page">
+    <article class="ticket" aria-labelledby="titulo-evento">
+
+      <!-- Decoração -->
+      <img class="ticket__laco" src="assets/laco.svg" alt="" aria-hidden="true" width="100" height="140">
+      <img class="ticket__ramo ticket__ramo--tl" src="assets/ramo.svg" alt="" aria-hidden="true" width="160" height="160">
+      <img class="ticket__ramo ticket__ramo--br" src="assets/ramo.svg" alt="" aria-hidden="true" width="160" height="160">
+
+      <!-- ===== Convite ===== -->
+      <div class="ticket__convite">
+
+        <header class="hero">
+          <p class="eyebrow reveal">Convite especial</p>
+          <div class="divider reveal" aria-hidden="true"><span>✦</span></div>
+          <p class="hero__mes reveal">
+            <span class="hero__outubro">Outubro</span>
+            <span class="script hero__rosa">Rosa</span>
+          </p>
+          <p class="script hero__frase reveal">Por todas elas.</p>
+        </header>
+
+        <section class="brand reveal" aria-labelledby="titulo-evento">
+          <h1 id="titulo-evento" class="brand__nome">
+            ELASCE<span class="brand__estrela" aria-hidden="true">✦</span>
+          </h1>
+          <p class="brand__sub">Um encontro para cuidar, conectar e <em>florescer</em></p>
+        </section>
+
+        <ul class="infos reveal" aria-label="Informações do evento">
+          <li class="infos__item">
+            <span class="icon-circle"><svg class="icon" role="img" aria-label="Data"><use href="#i-calendario" /></svg></span>
+            <span class="infos__texto"><time datetime="2026-10-17">17/10</time></span>
+          </li>
+          <li class="infos__item">
+            <span class="icon-circle"><svg class="icon" role="img" aria-label="Horário"><use href="#i-relogio" /></svg></span>
+            <span class="infos__texto"><time datetime="08:00">8h</time></span>
+          </li>
+          <li class="infos__item">
+            <span class="icon-circle"><svg class="icon" role="img" aria-label="Local"><use href="#i-local" /></svg></span>
+            <span class="infos__texto">Casa Martim</span>
+          </li>
+        </ul>
+
+        <section class="bloco reveal" aria-labelledby="titulo-convite">
+          <h2 id="titulo-convite" class="eyebrow eyebrow--sm">
+            Um convite para você
+            <svg class="icon icon--inline" aria-hidden="true"><use href="#i-coracao" /></svg>
+          </h2>
+          <p>Um dia feito para você.</p>
+          <p>Palestras inspiradoras, experiências, autocuidado, conexões e muitas surpresas especiais.</p>
+          <p class="script bloco__script">Venha viver esse momento!</p>
+        </section>
+
+        <section class="bloco bloco--proposito reveal" aria-labelledby="titulo-proposito">
+          <span class="icon-circle icon-circle--lg" aria-hidden="true"><svg class="icon"><use href="#i-laco" /></svg></span>
+          <h2 id="titulo-proposito" class="visually-hidden">Propósito</h2>
+          <p>Neste Outubro Rosa, o <strong class="destaque">ELASCE</strong> ganha um propósito ainda maior: <em>transformar cuidado em solidariedade.</em></p>
+          <p>O valor arrecadado será destinado à <strong>Liga de Combate ao Câncer de Mama</strong>.</p>
+        </section>
+
+        <ul class="porques reveal" aria-label="Por que participar">
+          <li>
+            <span class="porques__icones" aria-hidden="true">
+              <svg class="icon"><use href="#i-coracao" /></svg>
+            </span>
+            Porque cuidar de si também é olhar para o próximo.
+          </li>
+          <li>
+            <span class="porques__icones" aria-hidden="true">
+              <svg class="icon"><use href="#i-lotus" /></svg>
+            </span>
+            Porque informação pode prevenir.
+          </li>
+          <li>
+            <span class="porques__icones" aria-hidden="true">
+              <svg class="icon"><use href="#i-pessoas" /></svg>
+            </span>
+            Porque acolhimento pode transformar.
+          </li>
+        </ul>
+        <span class="icon-circle icon-circle--broto reveal" aria-hidden="true"><svg class="icon"><use href="#i-broto" /></svg></span>
+      </div>
+
+      <!-- ===== Linha de destacar ===== -->
+      <div class="perforation" role="separator" aria-hidden="true"></div>
+
+      <!-- ===== Inscrição ===== -->
+      <section id="inscricao" class="ticket__inscricao reveal" aria-label="Inscrição">
+        <div class="etapas">
+
+          <!-- Etapa 1: formulário -->
+          <div class="etapa etapa--form" id="etapa-form">
+            <h2 id="titulo-inscricao" class="inscricao__titulo">Garanta sua inscrição</h2>
+            <p class="inscricao__valor"><span class="inscricao__moeda">R$</span> 89,00</p>
+            <p class="inscricao__nota">Valor integralmente revertido à causa</p>
+
+            <form class="form" id="form-inscricao" novalidate aria-labelledby="titulo-inscricao">
+              <div class="campo">
+                <label class="campo__label" for="nome">Nome completo</label>
+                <input class="campo__input" id="nome" name="nome" type="text"
+                       autocomplete="name" autocapitalize="words" maxlength="120"
+                       required aria-describedby="erro-nome" placeholder="Nome e sobrenome">
+                <p class="campo__erro" id="erro-nome" aria-live="polite"></p>
+              </div>
+
+              <div class="campo">
+                <label class="campo__label" for="telefone">Telefone / WhatsApp</label>
+                <input class="campo__input" id="telefone" name="telefone" type="tel"
+                       inputmode="tel" autocomplete="tel-national" maxlength="15"
+                       required aria-describedby="erro-telefone" placeholder="(00) 00000-0000">
+                <p class="campo__erro" id="erro-telefone" aria-live="polite"></p>
+              </div>
+
+              <fieldset class="campo campo--tamanho" aria-describedby="erro-tamanho">
+                <legend class="campo__label">Tamanho da camiseta</legend>
+                <div class="pilulas">
+                  <label class="pilula"><input type="radio" name="tamanho" value="P" required><span>P</span></label>
+                  <label class="pilula"><input type="radio" name="tamanho" value="M"><span>M</span></label>
+                  <label class="pilula"><input type="radio" name="tamanho" value="G"><span>G</span></label>
+                  <label class="pilula"><input type="radio" name="tamanho" value="GG"><span>GG</span></label>
+                </div>
+                <p class="campo__erro" id="erro-tamanho" aria-live="polite"></p>
+              </fieldset>
+
+              <!-- Honeypot anti-robô: fora da tela e oculto de leitores de tela -->
+              <div class="hp" aria-hidden="true">
+                <label for="site">Deixe este campo em branco</label>
+                <input type="text" id="site" name="site" tabindex="-1" autocomplete="off">
+              </div>
+
+              <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+
+              <button type="submit" class="btn btn--enviar" id="btn-enviar">
+                <span class="btn__spinner" aria-hidden="true"></span>
+                <span class="btn__texto">Confirmar inscrição</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Etapa 2: pagamento via Pix -->
+          <div class="etapa etapa--pix" id="etapa-pix" hidden>
+            <span class="icon-circle icon-circle--lg" aria-hidden="true"><svg class="icon"><use href="#i-laco" /></svg></span>
+            <h2 class="inscricao__titulo inscricao__titulo--sucesso" id="titulo-pix" tabindex="-1">
+              Sua inscrição foi recebida, <span data-primeiro-nome></span>! <span role="img" aria-label="laço rosa">🎀</span>
+            </h2>
+            <p class="inscricao__nota">Agora é só garantir sua vaga com o Pix.</p>
+
+            <div class="pix">
+              <figure class="pix__moldura">
+                <div class="pix__qr" id="pix-qr" role="img" aria-label="QR Code do Pix no valor de R$ 89,00"></div>
+                <figcaption class="pix__qr-falha" id="pix-qr-falha" hidden>
+                  Não conseguimos exibir o QR Code agora. Use o botão de copia e cola logo abaixo.
+                </figcaption>
+              </figure>
+
+              <p class="inscricao__valor pix__valor"><span class="inscricao__moeda">R$</span> <span data-pix-valor>89,00</span></p>
+
+              <button type="button" class="btn btn--secundario" id="btn-copiar-codigo">
+                <svg class="icon" aria-hidden="true"><use href="#i-copiar" /></svg>
+                <span class="btn__texto">Copiar código Pix (copia e cola)</span>
+              </button>
+
+              <p class="pix__chave">
+                <span class="pix__chave-rotulo">Chave Pix</span>
+                <span class="pix__chave-valor" id="pix-chave"></span>
+                <button type="button" class="btn-mini" id="btn-copiar-chave" aria-label="Copiar chave Pix">
+                  <svg class="icon" aria-hidden="true"><use href="#i-copiar" /></svg>
+                  <span class="btn__texto">Copiar</span>
+                </button>
+              </p>
+
+              <p class="visually-hidden" id="pix-aviso-copia" role="status" aria-live="polite"></p>
+
+              <p class="pix__instrucao">Abra o app do seu banco, escolha <strong>Pix &gt; Ler QR Code</strong> ou <strong>Pix Copia e Cola</strong>.</p>
+
+              <div class="pix__divisor" aria-hidden="true"><span>✦</span></div>
+
+              <a class="btn btn--whatsapp" id="btn-whatsapp" href="#" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-mensagem" /></svg>
+                <span class="btn__texto">Enviar comprovante pelo WhatsApp</span>
+              </a>
+              <p class="pix__aviso">Sua vaga é confirmada após o envio do comprovante.</p>
+
+              <p class="script pix__final">Obrigada por florescer com a gente.</p>
+              <p class="pix__lembrete">17/10 · 8h · Casa Martim</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </article>
+
+    <footer class="rodape reveal">
+      <p class="script rodape__frase">Juntas, somos mais fortes. Juntas, florescemos.</p>
+      <div class="creditos">
+        <div class="credito">
+          <p class="credito__rotulo">Realização</p>
+          <span class="credito__logo">
+            <img src="assets/logo-lumiere.png" width="150" height="80" alt="Lumière Clinic" loading="lazy" decoding="async">
+          </span>
+        </div>
+        <span class="creditos__divisor" aria-hidden="true"></span>
+        <div class="credito">
+          <svg class="icon credito__laco" aria-hidden="true"><use href="#i-laco" /></svg>
+          <p class="credito__texto">Em prol da Liga de Combate ao Câncer de Mama</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+          integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="js/pix.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
