@@ -7,7 +7,7 @@
     timeoutMs: 30000,
 
     pix: {
-      chave: '+5554996435079',      // telefone: +55DDDNUMERO · CPF/CNPJ: só números
+      chave: 'anaclara1bosco@gmail.com', // e-mail · telefone: +55DDDNUMERO · CPF/CNPJ: só números
       nome: 'Ana Clara Bosco',
       cidade: 'Guapore',
       valor: 89.00,
@@ -15,7 +15,7 @@
     },
 
     // WhatsApp da idealizadora (com DDI 55) para receber os comprovantes
-    whatsapp: '5554996435079'
+    whatsapp: '5554996033946'
   };
 
   // Dados guardados em memória para a etapa do Pix
